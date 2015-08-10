@@ -15,6 +15,7 @@ module IPA
 			:version        => 'CFBundleVersion',
 			:version_string => 'CFBundleShortVersionString',
 			:minimum_os_version => 'MinimumOSVersion',
+			:device_family      => 'UIDeviceFamily'
 		}
 
 		MAPPED_INFO_KEYS.each do |method_name, key_name|
